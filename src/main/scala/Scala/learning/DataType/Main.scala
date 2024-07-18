@@ -66,7 +66,7 @@ object ScalaDataTypesTutorial {
     // Nothing: Subtype of every other type (useful for throwing exceptions)
     def nothingVal: Nothing = throw new RuntimeException("This is Nothing type")
 
-    // Option: Represents optional values (either Some or None))
+    // Option: Represents optional values (either Some or None))-
     val someVal: Option[Int] = Some(5)
     val noneVal: Option[Int] = None
     println(s"Some Value: $someVal")
