@@ -1,5 +1,7 @@
 package Scala.learning.DataType
 
+import scala.io.StdIn.readLine
+
 object Main {
 
   def main(args: Array[String]): Unit = {
@@ -44,6 +46,16 @@ val q = {
     val Mo = "mohammad"
 
       println(Mo.getClass)
+
+    // to know the type of the Mo
+
+
+// read from user it reads as a String so we need to convert it into integer so we can do and mathmetical  opertations
+val moo = readLine("think about a number ").toInt
+
+    var m= moo * moo
+    println(s"You number was $moo, and when muliply this number $m")
+
 
 
   }
