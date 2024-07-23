@@ -132,8 +132,12 @@ object ScalaDataTypesTutorial {
      * It reads the input as a String, so we need to convert it to an integer
      * to perform any mathematical operations.
      */
+
+
+    println("hello this is a test for the readline functionolity ")
+    var username = readLine()
     val userInput = readLine("Think about a number: ").toInt
     val result = userInput * userInput
-    println(s"Your number was $userInput, and when multiplied by itself: $result")
+    println(s"Your number was $userInput, and when multiplied by itself: $username")
   }
 }
